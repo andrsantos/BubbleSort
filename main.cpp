@@ -24,3 +24,12 @@ array[j]=array[j+1];
 array[j+1]=hold; 
 }
 } 
+} 
+cout<<"array ordenado: "<<endl;
+for(int i=0; i<5; i++)
+{
+cout<<array[i]<<endl; 
+} 
+
+getch();
+}
